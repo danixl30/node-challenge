@@ -1,0 +1,9 @@
+{
+  "include": ["src", "src/swagger-output.json"],
+  "exclude": ["tests"],
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+        "resolveJsonModule": true
+    }
+}
